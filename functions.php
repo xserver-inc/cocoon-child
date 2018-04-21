@@ -8,4 +8,4 @@ function include_parent_skins(){
 //子テーマ用のビジュアルエディタースタイルを適用
 add_editor_style();
 
-//以下にSimplicity子テーマ用の関数を書く
+//以下に子テーマ用の関数を書く
