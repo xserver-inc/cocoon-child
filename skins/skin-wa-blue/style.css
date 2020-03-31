@@ -1,0 +1,262 @@
+/*
+  Skin Name: 和（紺）
+  Description: 和の色（紺）を基調にしたスキン
+  Skin URI: https://sec.ayaito.net/cocoon/skin/14748/
+  Author: 綾糸
+  Author URI: https://sec.ayaito.net/
+  Screenshot URI: https://sec.ayaito.net/wp-content/uploads/2020/02/wa_blue.jpg
+  Version: 0.0.1
+  Priority: 
+*/
+/************************
+ヘッダー・グローバルナビ
+/************************/
+.header-container .navi {
+  background: #5d5855;
+  border-top:2px solid #89817f;
+  border-bottom:2px solid #506185;
+}
+/* .navi{
+  border: 0;
+  background-color: transparent;
+}*/
+#navi .navi-in a {
+color: #fff;
+}
+#navi .navi-in>.menu-header .sub-menu {
+background:#89817f;
+}
+#navi .navi-in a:hover {
+background-color:#233B6C;
+}
+.header-container{
+color: #fff;
+}
+.header{
+background-color:#233B6C;
+}
+/************************
+サイト名・キャッチフレーズ
+/************************/
+.site-name-text{
+font-size:30px;
+font-weight:bold;
+color: #fff;
+}
+.site-name-text:hover{
+color: #506185;
+}
+.tagline{
+background-color:#5d5855;
+}
+/************************/
+/* 見出し */
+/************************/
+.article h2{
+padding: 10px;
+margin: 5px 0;
+border-top: solid 3px #89817f;
+border-bottom: solid 3px #233B6C;
+font-size:22px;
+}
+.article h3{
+color: #444;
+font-size: 22px;
+position: relative;
+padding: 0 0 2px 32px;
+border-top:none;
+border-left:none;
+border-bottom: 1px solid #888;
+}
+.article h3:before, .post h3:after{
+content: "";
+position: absolute;
+bottom: 0;
+width: 12px;
+height: 12px;
+border: 2px solid #233B6C;
+margin: auto;
+}
+.article h3:before{
+top: -6px;
+left: 0px;
+}
+.article h3:after{
+top: 6px;
+left: 6px;
+}
+.article h4 {
+padding: 10px;
+margin: 5px 0;
+background: #233B6C;
+border-radius: 8px;
+color:#fff;
+width:100%;
+}
+.article h5{
+border-bottom: 1px solid #aaa;
+margin: 15px 0;
+padding: 5px 0;
+position: relative;
+}
+.article h5:before,
+h5:after {
+content: '';
+border-right: 20px solid #fff;
+border-top: 15px solid #aaa;
+bottom: -15px;
+position: absolute;
+left: 25px;
+}
+.article h5:after {
+border-top-color: #fff;
+border-right-color: transparent;
+bottom: -13px;
+left: 26px;
+}
+/************************
+/ サイドバー見出し（h3）
+/ フッター見出し（h3）
+/************************/
+.sidebar h3,.footer-in h3 {
+color: #000;
+font-size: 20px;
+line-height: 20px;
+padding: 10px;
+width:100%;
+background: repeating-linear-gradient(45deg, #d9d9d9, #d9d9d9 10px, #b8c2d9 10px, #b8c2d9 20px);
+}
+/************************
+/ SNSボタン
+/************************/
+#container .sns-buttons a{
+background-color: #233B6C;
+color: #fff;
+border: 0;
+}
+
+/************************
+/ 目次デザイン 
+/************************/
+/* 目次全体枠 */
+.toc{
+border-top:5px solid; color:#5d5855;
+padding: 20px;
+}
+/* 目次アイコン */
+.toc-title:before {
+width: 40px;
+height: 40px;
+content : "◆";
+font-size:18px;
+margin-right:8px;
+color:#FFF;
+background-color:#233B6C;
+border-radius: 50%;
+padding:10px;
+}
+.toc-title:after {
+background-color:#233B6C;
+border: solid 1px #5d5855;
+color:#fff;
+padding:2px;
+}
+/************************
+/ ブログカード
+/************************/
+.a-wrap {background-color: #d9d9d9;}
+.a-wrap .blogcard {border-color: #89817f;}
+
+.a-wrap:hover {
+background-color: #b8c2d9;
+-webkit-transform: translateY(-2px);
+-ms-transform: translateY(-2px);
+transform: translateY(-2px);
+box-shadow: 0 0 8px #b8c2d9;
+}
+
+.ecb-entry-border .entry-card-wrap,
+.recb-entry-border .related-entry-card-wrap,
+.tagcloud a,
+.author-box,
+.comment-reply-link,
+.ranking-item{
+  border-color: #506185;
+}
+/************************
+/ コメント送信ボタン
+/************************/
+input[type='submit'] {
+padding: 10px;
+margin: 5px 0;
+background: #233B6C;
+border-radius: 8px;
+color:#fff;
+font-size:20px;
+}
+/************************/
+/*テーブル*/
+/************************/
+table {
+width:100%;
+border-collapse: collapse;
+text-align: left;
+line-height: 1.5;
+border: 2px solid #ccc;
+font-size: 16px;
+}
+table th {
+padding: 10px;
+font-weight: bold;
+border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-bottom: 2px solid #233B6C !important;
+background: #ebebeb;
+font-size: 18px;
+}
+table tr:nth-child(even) {
+background: #e1e1e1;
+}
+/************************
+/ ページネーション
+/************************/
+/*次のページ　ボタン*/
+.pagination-next-link {
+background: #233B6C;
+color:#fff;
+font-weight: bold;
+border-radius: 8px;
+}
+.pagination-next-link a:hover{
+background: #506185;
+color:#ccc;
+}
+/*ページナンバーリンク*/
+.page-numbers{
+border-radius: 50%;
+color:#89817f;
+font-weight: bold;
+}
+.pagination a:hover {
+background: #506185;
+color:#ccc;
+}
+.pagination .current{
+color: #fff;
+background-color: #233B6C;
+border: 2px solid #89817f;
+border-radius: 50%;
+}
+/************************
+/ レスポンシブ
+/************************/
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  .article h2{
+    padding: .6em 0.2em;
+  }
+  .article h3{
+    padding: .4em 1em;
+  }
+}
